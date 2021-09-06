@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.form__group-textarea {
+    height: 50px;
+    width: 200px;
+    resize: none;
+    &:focus {
+        outline: none;
+    }
+    &::placeholder {
+        font-size: 10px;
+    }
+}
